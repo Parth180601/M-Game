@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Mahika & the Way Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container"></div>
+    <div id="dialogue-box" class="hidden">
+        <div class="dialogue-content">
+            <div class="speaker-name"></div>
+            <div class="dialogue-text"></div>
+            <div class="dialogue-continue">Tap to continue</div>
+        </div>
+    </div>
+    <div id="controls" class="hidden">
+        <div class="control-row">
+            <button id="btn-left" class="control-btn">←</button>
+            <button id="btn-jump" class="control-btn">↑</button>
+            <button id="btn-right" class="control-btn">→</button>
+        </div>
+        <button id="btn-interact" class="control-btn interact-btn">❤️</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/sprites.js"></script>
+    <script src="js/dialogue.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/hints.js"></script>
+    <script src="js/nametag.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/lia.js"></script>
+    <script src="js/parth.js"></script>
+    <script src="js/memory.js"></script>
+    <script src="js/scenes/Menu.js"></script>
+    <script src="js/scenes/Level1.js"></script>
+    <script src="js/scenes/Level2.js"></script>
+    <script src="js/scenes/Level3.js"></script>
+    <script src="js/scenes/Level4.js"></script>
+    <script src="js/scenes/Ending.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
